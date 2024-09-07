@@ -14,6 +14,12 @@
   --color-peach: #ffa7a1;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 ::selection {
   background: var(--color-blue);
   color: var(--color-black);
